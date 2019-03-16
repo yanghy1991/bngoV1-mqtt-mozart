@@ -1,0 +1,6 @@
+---- getaddrinfo Matches (5 in 5 files) ----
+IPStack::connect in linux.cpp (MQTTClient\src\linux) : 		if ((rc = getaddrinfo(hostname, NULL, &hints, &result)) == 0)
+IPStack::connect in main.cpp (MQTTClient\samples\linux) : 		if ((rc = getaddrinfo(hostname, NULL, &hints, &result)) == 0)
+NetworkConnect in MQTTLinux.c (MQTTClient-C\src\linux) : 	if ((rc = getaddrinfo(addr, NULL, &hints, &result)) == 0)
+transport_open in transport.c (MQTTPacket\samples) : 	if ((rc = getaddrinfo(addr, NULL, &hints, &result)) == 0)
+transport_open in transport.c (MQTTPacket\src) : 	if ((rc = getaddrinfo(addr, NULL, &hints, &result)) == 0)
